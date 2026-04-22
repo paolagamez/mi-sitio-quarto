@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Paola Gámez</title>
+<title>quarto-inputb5d3b6442923bd45 – Paola Gámez</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -94,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link active" href="./cv.html" aria-current="page"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
@@ -147,68 +147,129 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="hero-section">
+<div class="content-section">
 
-  <!-- Foto de perfil -->
-  <div class="avatar-wrapper">
-    <img src="foto.jpg" alt="Foto de perfil">
-  </div>
-
-  <!-- Nombre y cargo -->
-  <h1>Paola Gámez</h1>
-  <p class="subtitle">
-    Estudiante de Licenciatura en Microbiología· 
-    Universidad  Autónoma de Querétaro
-  </p>
-
-  <!-- Bio corta -->
-  <p>
-    Bienvenido/a a mi sitio personal. Soy estudiante de Microbiología en la Universidad Autonoma de Queretaro, con interés en inocuidad en procesos industriales y microbiota.
-  </p>
-
-  <!-- Botones de acción -->
-  <div style="margin-top: 1.5rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-    <a href="./cv.html" class="btn-minimal btn-accent">📄 Ver CV</a>
-    <a href="./proyectos.html" class="btn-minimal">🔬 Proyectos</a>
-    <a href="./contacto.html" class="btn-minimal">✉️ Contacto</a>
-  </div>
-</div>
-
-<!-- Separador visual -->
-<div style="max-width: 720px; margin: 0 auto; padding: 0 1.5rem;">
-  <hr style="border-color: #e9ecef; margin: 2rem 0;">
-</div>
-
-<!-- Sección: Sobre mí -->
-<div class="content-section" style="padding-top: 0;">
-
-  <h2 class="section-title anchored">Sobre mí</h2>
-  <hr class="section-divider">
-
-  <p>
-    Describe aquí tu trayectoria académica de manera más detallada. Puedes
-    hablar de tu institución, tu área de especialización y qué te motivó a
-    elegirla. Este espacio es tuyo para contar tu historia de forma auténtica.
-  </p>
-
-  <p>
-    Actualmente me encuentro en el tercer año de mi licenciatura en Microbiología. Mis intereses de investigación incluyen:
-  </p>
-
-  <ul style="color: #7f8c8d; font-size: 0.95rem;">
-    <li>Interés de investigación 1</li>
-    <li>Interés de investigación 2</li>
-    <li>Interés de investigación 3</li>
-  </ul>
-
-  <!-- Afiliación / instituciones -->
-  <h2 class="section-title anchored" style="margin-top: 2.5rem;">Afiliación</h2>
-  <hr class="section-divider">
-
-  <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
     <div>
-      <strong style="font-size: 0.95rem;">Nombre de la Universidad</strong><br>
-      <span style="font-size: 0.85rem; color: #7f8c8d;">Departamento / Facultad · Ciudad, País</span>
+      <h2 class="section-title anchored">Currículum Vitae</h2>
+      <hr class="section-divider">
+    </div>
+    <a href="assets/cv.pdf" class="btn-minimal btn-accent" download="">
+      ⬇ Descargar CV (PDF)
+    </a>
+  </div>
+
+  <!-- EDUCACIÓN -->
+  <div class="cv-bloque">
+    <h3 style="font-size: 0.85rem; font-weight: 700; color: #7f8c8d;
+               text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1rem;" class="anchored">
+      Educación
+    </h3>
+
+    <div class="cv-entry">
+      <div class="cv-anio">2022 – presente</div>
+      <div class="cv-detalle">
+        <h4 class="anchored">Doctorado en [Área de conocimiento]</h4>
+        <div class="institucion">Universidad · Facultad / Departamento</div>
+        <p>Tesis: "Título provisional de tu tesis". Asesor: Dr. Nombre Apellido.</p>
+      </div>
+    </div>
+
+    <div class="cv-entry">
+      <div class="cv-anio">2019 – 2022</div>
+      <div class="cv-detalle">
+        <h4 class="anchored">Maestría en [Área]</h4>
+        <div class="institucion">Universidad · Ciudad, País</div>
+        <p>Tesis: "Título de tu tesis de maestría". Mención honorífica.</p>
+      </div>
+    </div>
+
+    <div class="cv-entry">
+      <div class="cv-anio">2014 – 2019</div>
+      <div class="cv-detalle">
+        <h4 class="anchored">Licenciatura en [Carrera]</h4>
+        <div class="institucion">Universidad · Ciudad, País</div>
+        <p>Promedio: X.X/10. Titulado con tesis.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCIA ACADÉMICA -->
+  <div class="cv-bloque">
+    <h3 style="font-size: 0.85rem; font-weight: 700; color: #7f8c8d;
+               text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1rem;" class="anchored">
+      Experiencia académica
+    </h3>
+
+    <div class="cv-entry">
+      <div class="cv-anio">2023 – 2025</div>
+      <div class="cv-detalle">
+        <h4 class="anchored">Ayudante de investigación</h4>
+        <div class="institucion">Laboratorio de [Nombre] · Universidad</div>
+        <p>Descripción breve de tus responsabilidades y logros en este puesto.</p>
+      </div>
+    </div>
+
+    <div class="cv-entry">
+      <div class="cv-anio">2022</div>
+      <div class="cv-detalle">
+        <h4 class="anchored">Docente auxiliar — [Nombre de la materia]</h4>
+        <div class="institucion">Universidad · Facultad</div>
+        <p>Impartición de clases, diseño de materiales y evaluación de estudiantes.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- BECAS Y RECONOCIMIENTOS -->
+  <div class="cv-bloque">
+    <h3 style="font-size: 0.85rem; font-weight: 700; color: #7f8c8d;
+               text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1rem;" class="anchored">
+      Becas y reconocimientos
+    </h3>
+
+    <div class="cv-entry">
+      <div class="cv-anio">2022 – hoy</div>
+      <div class="cv-detalle">
+        <h4 class="anchored">Beca Nacional de Posgrado</h4>
+        <div class="institucion">CONAHCYT · México</div>
+      </div>
+    </div>
+
+    <div class="cv-entry">
+      <div class="cv-anio">2021</div>
+      <div class="cv-detalle">
+        <h4 class="anchored">Mejor tesis de maestría — [Área]</h4>
+        <div class="institucion">Nombre de la institución o premio</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HABILIDADES -->
+  <div class="cv-bloque">
+    <h3 style="font-size: 0.85rem; font-weight: 700; color: #7f8c8d;
+               text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1rem;" class="anchored">
+      Habilidades
+    </h3>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+      <div>
+        <strong style="font-size: 0.85rem; color: #2c3e50;">Lenguajes y herramientas</strong>
+        <p style="font-size: 0.85rem; color: #7f8c8d; margin-top: 0.3rem;">
+          R · Python · Quarto · LaTeX · Git · SPSS
+        </p>
+      </div>
+      <div>
+        <strong style="font-size: 0.85rem; color: #2c3e50;">Idiomas</strong>
+        <p style="font-size: 0.85rem; color: #7f8c8d; margin-top: 0.3rem;">
+          Español (nativo) · Inglés (avanzado, B2) · Portugués (básico)
+        </p>
+      </div>
+      <div>
+        <strong style="font-size: 0.85rem; color: #2c3e50;">Métodos</strong>
+        <p style="font-size: 0.85rem; color: #7f8c8d; margin-top: 0.3rem;">
+          Análisis estadístico · Revisión sistemática · Diseño experimental
+        </p>
+      </div>
     </div>
   </div>
 

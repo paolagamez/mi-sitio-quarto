@@ -1,5 +1,5 @@
 ---
-title: " "
+title: ""
 format:
   html:
     page-layout: full
@@ -14,16 +14,15 @@ format:
   </div>
 
   <!-- Nombre y cargo -->
-  <h1>Tu Nombre Aquí</h1>
+  <h1>Paola Gámez</h1>
   <p class="subtitle">
-    Estudiante de Licenciatura-Maestría-Doctorado · Universidad  Autónoma de Querétaro
+    Estudiante de Licenciatura en Microbiología· 
+    Universidad  Autónoma de Querétaro
   </p>
 
   <!-- Bio corta -->
   <p>
-    Bienvenido/a a mi sitio personal. Soy estudiante de [tu área de estudio],
-    con interés en [tema 1], [tema 2] y [tema 3]. Actualmente trabajo en
-    [proyecto o tesis] bajo la supervisión del Dr. [Nombre].
+    Bienvenido/a a mi sitio personal. Soy estudiante de Microbiología en la Universidad Autonoma de Queretaro, con interés en inocuidad en procesos industriales y microbiota.
   </p>
 
   <!-- Botones de acción -->
@@ -52,8 +51,7 @@ format:
   </p>
 
   <p>
-    Actualmente me encuentro en el [año] año de mi [Licenciatura / Maestría /
-    Doctorado] en [área]. Mis intereses de investigación incluyen:
+    Actualmente me encuentro en el tercer año de mi licenciatura en Microbiología. Mis intereses de investigación incluyen:
   </p>
 
   <ul style="color: #7f8c8d; font-size: 0.95rem;">

@@ -1,9 +1,9 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 
 website:
-  title: "Tu Nombre"
+  title: "Paola Gámez"
   description: "Sitio personal de estudiante"
   favicon: "assets/favicon.ico"
 
