@@ -14,7 +14,7 @@ format:
   </div>
 
   <!-- Nombre y cargo -->
-  <h1>Paola Gámezzzzzz</h1>
+  <h1>Paola Gámez</h1>
   <p class="subtitle">
     Estudiante de Licenciatura en Microbiología· 
     Universidad  Autónoma de Querétaro
