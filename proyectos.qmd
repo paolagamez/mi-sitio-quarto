@@ -16,7 +16,7 @@ format:
     académicos y personales.
   </p>
 
-  <!-- Proyecto 1 -->
+  <!-- Proyecto Genomica Funcional -->
   <div class="card-proyecto">
   <h3>🔬 Análisis de Co-expresión Génica (WGCNA)</h3>
   <p>
