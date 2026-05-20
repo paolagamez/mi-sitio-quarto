@@ -16,11 +16,11 @@ format:
     académicos y personales.
   </p>
 
-  <!-- Proyecto Genomica Funcional -->
+  <!-- <h3>Proyecto genomica funcional <h3>-->
   <div class="card-proyecto">
   <h3>🔬 Análisis de Co-expresión Génica (WGCNA)</h3>
   <p>
-    Identificación de módulos de genes funcionalmente relacionados mediante redes de co-expresión y traslape topológico (TOM). El proyecto aborda el ruido biológico en datos transcriptómicos para descubrir biomarcadores clave y posibles dianas terapéuticas.
+    Identificación de módulos de genes asociados a cancer de mama funcionalmente relacionados mediante redes de co-expresión 
   </p>
   
   <div>
